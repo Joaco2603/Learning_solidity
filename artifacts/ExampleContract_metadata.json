@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "incrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Avalanche_Bootcamp/Counter.sol": "ExampleContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Avalanche_Bootcamp/Counter.sol": {
+			"keccak256": "0x97255d71e73c705526af0265a33bee7dfc56de3b27671e654237432da09c52a8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a71cc33475ac9206229d42adb150f56784a132d9feed2633fe384f9472d887dc",
+				"dweb:/ipfs/QmULgU2N5urnumFoQGCr8McQxssCjVKLcyCCdEmjkW9vU4"
+			]
+		}
+	},
+	"version": 1
+}

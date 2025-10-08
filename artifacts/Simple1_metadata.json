@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "myInfo",
+						"type": "string"
+					}
+				],
+				"name": "setInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Avalanche_Bootcamp/Simple.sol": "Simple1"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Avalanche_Bootcamp/Simple.sol": {
+			"keccak256": "0xf304ea7d5eaa67189d032405f26a2af16ca2ea6e61010159b3a516e0fe0452a9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://79f34041234df0be59ac515d0b5b4205193b1cf8320205ffe9ed515313959f66",
+				"dweb:/ipfs/QmWmvmECy1XB8jzhk6bwGXRrT4VCyiJivk2hBo2KqRBRwM"
+			]
+		}
+	},
+	"version": 1
+}
