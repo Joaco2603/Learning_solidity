@@ -1,28 +1,17 @@
-REMIX DEFAULT WORKSPACE
+ENGLISH DESCRIPTION (Practice / Learning)
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+This repository is a default Remix workspace that contains simple Solidity contracts and example deployment/test scripts intended for learning and practice purposes. The code is educational and demonstrates basic Solidity patterns and features (state variables, functions, access control, events, arrays, mappings, structs, and simple tests). Do not use these contracts as-is in production.
 
-This workspace contains 3 directories:
+Brief summaries of key contracts:
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+- `contracts/1_Storage.sol` - A minimal contract showing how to store and retrieve a single unsigned integer. Useful to learn read/write state and simple function calls.
+- `contracts/2_Owner.sol` - Demonstrates ownership and access control. The deployer becomes the owner; includes an `isOwner` modifier, owner change function, and an OwnerSet event. Uses `hardhat/console.sol` for deploy-time logging.
+- `contracts/3_Ballot.sol` - An example implementation of a voting contract with delegation (from the Solidity docs). Shows structs, mappings, dynamic arrays, loops, and require-based checks. Includes functions to give voting rights, delegate, vote, and compute the winner.
+- `contracts/Avalanche_Bootcamp/Hello.sol` - Simple contract with a public string state and functions to read and update it. Good for learning string handling and calldata vs memory.
+- `contracts/Avalanche_Bootcamp/Simple.sol` (Simple1) - Stores and returns a string; another minimal example for practice.
 
-SCRIPTS
+If you want, I can also:
+- add short usage examples (sample Remix or script commands) for each contract,
+- add SPDX/license headers where missing or normalize Solidity pragma versions,
+- or generate a small unit test for one of the contracts.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
