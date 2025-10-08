@@ -1,4 +1,4 @@
-ENGLISH DESCRIPTION (Practice / Learning)
+Practice and Learning Solidity Contracts
 
 This repository is a default Remix workspace that contains simple Solidity contracts and example deployment/test scripts intended for learning and practice purposes. The code is educational and demonstrates basic Solidity patterns and features (state variables, functions, access control, events, arrays, mappings, structs, and simple tests). Do not use these contracts as-is in production.
 
