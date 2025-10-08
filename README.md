@@ -14,4 +14,4 @@ If you want, I can also:
 - add short usage examples (sample Remix or script commands) for each contract,
 - add SPDX/license headers where missing or normalize Solidity pragma versions,
 - or generate a small unit test for one of the contracts.
-
+Solidity test of course
